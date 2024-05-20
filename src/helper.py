@@ -67,7 +67,7 @@ def greet():
 import google.generativeai as genai
 from gtts import gTTS
 
-GOOGLE_API_KEY = '******************************' # your google api key
+GOOGLE_API_KEY = '**************************' # your google api key
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 
 def voice_input():
